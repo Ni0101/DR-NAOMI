@@ -1,7 +1,7 @@
 .header-label_top {
   font-size: 1.4rem;
   height: 44px;
-  background-color: #F6EFE9;
+  background-color: var(--background-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -71,4 +71,111 @@
   color: var(--white-color);
   border-bottom: 1px solid var(--white-color);
   font-size: 1.5rem;
+}
+
+.section-1_lists {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  margin: 0;
+  background-color: var(--background-color);
+}
+.section-1_lists a {
+  font-size: 2rem;
+  font-weight: lighter;
+  color: var(--text-color);
+  display: inline-flex;
+  align-items: center;
+}
+.section-1_lists a img {
+  padding-bottom: 8px;
+  padding-left: 5px;
+}
+.section-1_lists .slick-list,
+.section-1_lists .draggable {
+  max-width: 100%;
+  max-height: 100%;
+}
+.section-1_lists .slick-track {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-2_wrapper {
+  margin-left: 40px;
+  margin-bottom: 90px;
+  margin-top: 72px;
+}
+.section-2_wrapper .section-2_label {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 29px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.section-2_wrapper .section-2_lists {
+  position: relative;
+}
+.section-2_wrapper .section-2_lists .slick-prev {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: 2;
+  color: var(--text-color);
+  background-color: transparent;
+  border: transparent;
+}
+.section-2_wrapper .section-2_lists .slick-prev ion-icon {
+  font-size: 3rem;
+  font-weight: lighter;
+  cursor: pointer;
+}
+.section-2_wrapper .section-2_lists .slick-prev ion-icon:hover {
+  opacity: 0.7;
+}
+.section-2_wrapper .section-2_lists .slick-next {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  z-index: 2;
+  color: var(--text-color);
+  background-color: transparent;
+  border: transparent;
+}
+.section-2_wrapper .section-2_lists .slick-next ion-icon {
+  font-size: 3rem;
+  font-weight: lighter;
+  cursor: pointer;
+}
+.section-2_wrapper .section-2_lists .slick-next ion-icon:hover {
+  opacity: 0.7;
+}
+.section-2_wrapper .section-2_lists .slick-list {
+  width: 100%;
+}
+.section-2_wrapper .section-2_lists .slick-track {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-2_wrapper .section-2_lists .section-2_list img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.section-2_wrapper .section-2_lists .section-2_list div {
+  margin-top: 18px;
+}
+.section-2_wrapper .section-2_lists .section-2_list a {
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--text-color);
+}
+.section-2_wrapper .section-2_lists .section-2_list ~ .section-2_list {
+  margin-left: 15px;
 }/*# sourceMappingURL=styles.css.map */
