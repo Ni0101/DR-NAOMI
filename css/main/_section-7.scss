@@ -1,0 +1,57 @@
+.seciont-7_wrapper {
+    margin-top: 62px;
+    margin-bottom: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .section-7_label {
+        width: 28%;
+        margin-left: 40px;
+
+        .section-7_label-label {
+            font-weight: 500;
+            font-size: 1.8rem;
+            line-height: 22px;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+        }
+        
+        .section-7_label-header {
+            margin: 24px 0;
+            font-weight: 500;
+            font-size: 4rem;
+            line-height: 50px;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+        }
+        
+        .section-7_label-content {
+            font-size: 1.8rem;
+            line-height: 26px;
+            color: var(--content-color);
+            font-weight: lighter;
+        }
+        
+        .section-7_label-btn {
+            margin-top: 50px;
+
+            a {
+                border: 1px solid var(--text-color);
+                border-radius: 63px;
+                font-weight: 500;
+                font-size: 1.6rem;
+                line-height: 19px;
+                letter-spacing: 0.02em;
+                text-transform: uppercase;
+                padding: 18px 24px 15px 24px;
+            }
+        }
+    }
+
+    iframe {
+        max-width: 60%;
+        max-height: 100%;
+    }
+    
+}
+

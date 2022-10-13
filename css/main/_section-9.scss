@@ -1,0 +1,33 @@
+.section-9_wrapper {
+    margin-top: 30px;
+    margin-bottom: 34px;
+
+    .section-9_label {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h3 {
+            font-weight: 500;
+            font-size: 2.8rem;
+            line-height: 34px;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+            margin-right: 8px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 22px;
+        }
+    }
+    .section-9_albums {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 28px;
+        
+        img {
+            width: 19.7%;
+        }
+    }
+}

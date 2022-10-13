@@ -1,6 +1,10 @@
 :root {
     --text-color: #30292A;
+    --content-color: #4D4D4D;
     --white-color: #ffff;
+    --pink-color: #E3BEC3;
+    --white-color: #FFFFFF;
+    --light-text: #5E5E5E;
     --background-color: #F6EFE9;
     --font-family: 'Helvetica Neue LT Std';
 }
@@ -20,7 +24,7 @@ html,body {
     color: var(--text-color);
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, p {
     margin: 0;
 }
 

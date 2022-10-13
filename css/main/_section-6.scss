@@ -1,0 +1,141 @@
+.section-6_wrapper {
+  background-color: var(--background-color);
+  padding-bottom: 58px;
+
+  .section-6_wrapper-label {
+    text-align: center;
+    padding-top: 62px;
+    .section-6_label-label {
+      font-weight: 500;
+      font-size: 1.8rem;
+      line-height: 22px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-bottom: 21px;
+    }
+
+    .section-6_label-header {
+      font-weight: 500;
+      font-size: 4.2rem;
+      line-height: 50px;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+
+    .section-6_label-content {
+      font-weight: 400;
+      font-size: 1.8rem;
+      line-height: 26px;
+      color: var(--light-text);
+      margin-bottom: 27px;
+    }
+
+    .section-6_btn {
+      margin-bottom: 42px;
+      button ~ button {
+        margin-left: 12px;
+      }
+
+      button {
+        font-weight: 500;
+        font-size: 1.4rem;
+        line-height: 17px;
+        letter-spacing: 0.02em;
+        background-color: transparent;
+        text-transform: uppercase;
+        border: 1px solid #e3bec3;
+        border-radius: 63px;
+        padding: 9px 14px 7px 14px;
+
+        &:active {
+          background-color: var(--pink-color);
+        }
+
+        &:hover {
+          background-color: var(--pink-color);
+        }
+      }
+    }
+  }
+
+  .section-6_wrapper-lists {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .section-6_list ~ .section-6_list {
+      margin-left: 20px;
+    }
+    .section-6_list {
+      background-color: var(--white-color);
+
+      img {
+        max-width: 100%;
+        max-height: 100%;
+        padding: 15px;
+      }
+
+      .section-6_info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 6px 15px;
+
+        p {
+          font-size: 1.5rem;
+          line-height: 18px;
+        }
+
+        button {
+          font-weight: 500;
+          font-size: 1.4rem;
+          line-height: 17px;
+          letter-spacing: 0.02em;
+          text-transform: uppercase;
+          border: 1px solid #e3bec3;
+          border-radius: 63px;
+          padding: 9px 14px 7px 14px;
+          background-color: var(--pink-color);
+        }
+      }
+
+      .section-6_link {
+        display: flex;
+        align-items: center;
+        padding: 15px;
+
+        p {
+          font-weight: 500;
+          font-size: 1.5rem;
+          line-height: 18px;
+          letter-spacing: 0.03em;
+        }
+
+        ion-icon {
+          font-weight: 500;
+          font-size: 1.5rem;
+          margin-bottom: 3px;
+        }
+      }
+
+    }
+
+}
+    .section-6_see-more-btn {
+        text-align: center;
+        margin-top: 62px;
+        margin-bottom: 32px;
+        a {
+            border: 1px solid var(--text-color);
+            border-radius: 63px;
+            font-weight: 500;
+            font-size: 1.6rem;
+            line-height: 19px;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+            padding: 18px 24px 15px 24px;
+        }
+    
+    }
+}
