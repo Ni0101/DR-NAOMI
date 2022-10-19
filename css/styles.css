@@ -548,25 +548,25 @@
   padding: 18px 24px 15px 24px;
 }
 
-.seciont-7_wrapper {
+.section-7_wrapper {
   margin-top: 62px;
   margin-bottom: 62px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.seciont-7_wrapper .section-7_label {
+.section-7_wrapper .section-7_label {
   width: 28%;
   margin-left: 40px;
 }
-.seciont-7_wrapper .section-7_label .section-7_label-label {
+.section-7_wrapper .section-7_label .section-7_label-label {
   font-weight: 500;
   font-size: 1.8rem;
   line-height: 22px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
 }
-.seciont-7_wrapper .section-7_label .section-7_label-header {
+.section-7_wrapper .section-7_label .section-7_label-header {
   margin: 24px 0;
   font-weight: 500;
   font-size: 4rem;
@@ -574,16 +574,16 @@
   letter-spacing: 0.02em;
   text-transform: uppercase;
 }
-.seciont-7_wrapper .section-7_label .section-7_label-content {
+.section-7_wrapper .section-7_label .section-7_label-content {
   font-size: 1.8rem;
   line-height: 26px;
   color: var(--content-color);
   font-weight: lighter;
 }
-.seciont-7_wrapper .section-7_label .section-7_label-btn {
+.section-7_wrapper .section-7_label .section-7_label-btn {
   margin-top: 50px;
 }
-.seciont-7_wrapper .section-7_label .section-7_label-btn a {
+.section-7_wrapper .section-7_label .section-7_label-btn a {
   border: 1px solid var(--text-color);
   border-radius: 63px;
   font-weight: 500;
@@ -593,7 +593,7 @@
   text-transform: uppercase;
   padding: 18px 24px 15px 24px;
 }
-.seciont-7_wrapper iframe {
+.section-7_wrapper iframe {
   max-width: 60%;
   max-height: 100%;
 }
@@ -656,7 +656,7 @@
   margin-top: 11px;
   margin-bottom: 24px;
 }
-.section-8_wrapper .section-8_lists .section-8_wrapper-list .section-8_read-mone-btn a {
+.section-8_wrapper .section-8_lists .section-8_wrapper-list .section-8_read-more-btn a {
   font-weight: 500;
   font-size: 1.5rem;
   line-height: 18px;
@@ -694,4 +694,104 @@
 }
 .section-9_wrapper .section-9_albums img {
   width: 19.7%;
+}
+
+.footer_wrapper {
+  background-color: #EFDBD0;
+}
+.footer_wrapper .footer-main {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 66px;
+  margin-bottom: 61px;
+}
+.footer_wrapper .footer-main .footer-main_left .footer-main_left-label {
+  font-weight: 500;
+  font-size: 2.2rem;
+  line-height: 127.2%;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+.footer_wrapper .footer-main .footer-main_left .footer-main_left-content {
+  font-size: 1.5rem;
+  line-height: 22px;
+  margin-bottom: 18px;
+}
+.footer_wrapper .footer-main .footer-main_left .footer-main_left-input {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 31px;
+}
+.footer_wrapper .footer-main .footer-main_left .footer-main_left-input input {
+  border: 1px solid #30292A;
+  border-radius: 64px;
+  flex: 1 1;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 1.5rem;
+  line-height: 22px;
+  padding-left: 20px;
+}
+.footer_wrapper .footer-main .footer-main_left .footer-main_left-input button {
+  border: 1px solid #30292A;
+  border-radius: 64px;
+  flex: 1;
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 35%;
+  background-color: var(--text-color);
+  color: var(--white-color);
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 18px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding-top: 3px;
+}
+.footer_wrapper .footer-main .footer-main_left .footer-main_left-logo ion-icon {
+  font-size: 44px;
+}
+.footer_wrapper .footer-main .footer-main_left .footer-main_left-logo ion-icon ~ ion-icon {
+  margin-left: 36px;
+}
+.footer_wrapper .footer-main .footer-main_lists .footer-main_lists-label {
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.footer_wrapper .footer-main .footer-main_lists .footer-main_list a {
+  font-size: 1.6rem;
+  line-height: 33px;
+  color: var(--content-color);
+}
+.footer_wrapper .footer-main .footer-main_lists:nth-child(3) {
+  margin-right: 80px;
+}
+.footer_wrapper .footer-down {
+  padding-bottom: 49px;
+}
+.footer_wrapper .footer-down div {
+  font-size: 1.4rem;
+  line-height: 22px;
+  color: #786E68;
+}
+.footer_wrapper .footer-down .footer-down_list {
+  display: flex;
+}
+.footer_wrapper .footer-down .footer-down_list a {
+  font-size: 1.4rem;
+  line-height: 22px;
+  color: #786E68;
+  text-decoration: underline;
+}
+.footer_wrapper .footer-down .footer-down_list li ~ li {
+  margin-left: 12px;
 }/*# sourceMappingURL=styles.css.map */
