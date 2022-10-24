@@ -33,6 +33,8 @@
             }
         }
 
+        .slick-slider { display: table; table-layout: fixed; width: 100%; }
+
         .slick-prev {
             position: absolute;
             z-index: 2;
@@ -150,7 +152,35 @@
                 }
             }
         }
-
     }
+}
 
+@media screen and (max-width: 500px) {
+    .section-4_wrapper {
+        margin-top: 50px;
+
+        h2 {
+            font-size: 2.2rem;
+        }
+
+        .section-4_lists {
+            .section-4_item {
+                .section-4_type-item {
+                    font-size: 1.4rem;
+                }
+        
+                .section-4_name-item {
+                    padding: 8px 0;
+        
+                    a {
+                        font-size: 1.6rem;
+                    }
+                }
+
+                .section-4_price-item {
+                    font-size: 1.4rem;
+                }
+            }
+        }
+    }
 }

@@ -1,6 +1,7 @@
 .section-8_wrapper {
     margin-bottom: 62px;
     margin-top: 30px;
+    
   h2 {
     font-weight: 500;
     font-size: 3.4rem;
@@ -75,6 +76,32 @@
             }
         }
     }
-
   }
+}
+
+@media screen and (max-width: 500px) {
+    .section-8_wrapper {
+        h2 {
+            font-size: 2.8rem;
+        }
+
+        .section-8_lists {
+            display: block;
+            margin: 0;
+            padding: 0 20px;
+
+            .section-8_wrapper-list ~ .section-8_wrapper-list {
+                margin-left: 0;
+            }
+
+            .section-8_wrapper-list {
+                margin-bottom: 49px;
+
+                img {
+                    margin-bottom: 24px;
+                }
+            }
+        }
+
+    }
 }

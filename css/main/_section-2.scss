@@ -19,6 +19,8 @@
         // width: 100%;
         position: relative;
 
+        .slick-slider { display: table; table-layout: fixed; width: 100%; }
+
         .slick-prev { 
             position: absolute;
             left: 0;
@@ -68,7 +70,7 @@
             width: 100%;
             display: flex;
             justify-content: space-between;
-            align-items: center;
+            // align-items: center;
         }
 
         .section-2_list {
@@ -94,6 +96,22 @@
         
         .section-2_list ~ .section-2_list {
             margin-left: 15px;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .section-2_wrapper {
+        margin-left: 20px;
+        margin-top: 67px;
+        margin-bottom: 46px;
+
+        .section-2_label {
+            margin-bottom: 13px;
+        }
+
+        .section-2_list {
+            font-size: 1.5rem;
         }
     }
 }
